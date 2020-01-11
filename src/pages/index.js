@@ -1,3 +1,12 @@
-import React from "react"
+import React from 'react'
 
-export default () => <div>Hello world!</div>
+export const IndexPage = () => {
+  return (
+    <div>
+      Hello, World!
+    </div>
+  )
+}
+
+
+export default IndexPage
