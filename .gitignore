@@ -51,9 +51,6 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
-# dotenv environment variable files
-.env*
-
 # gatsby files
 .cache/
 public
@@ -68,4 +65,7 @@ yarn-error.log
 # Yarn Integrity file
 .yarn-integrity
 
-.eslintrc.js
+
+# UNCOMMENT THESE AFTER STARTING TEMPLATE
+# .env*
+# .eslintrc.js
