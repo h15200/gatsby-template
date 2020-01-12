@@ -2,16 +2,15 @@ import React from 'react'
 
 import Layout from './components/layout'
 
-const IndexPage = () => {
+const SecondPage = () => {
   return (
     <Layout>
       <main>
-      Index Page
+      Hello, 2nd page!
       </main>
     </Layout>
-
   )
 }
 
 
-export default IndexPage
+export default SecondPage
