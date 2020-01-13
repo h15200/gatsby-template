@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
-import Layout from './components/layout'
+import Head from '../components/helmetHead'
+import Layout from '../components/layout'
+// this connects main.scss to the gatsby app
+import indexStyles from '../styles/Modules/index.module.scss'
 
 const IndexPage = () => {
   return (
-    <Layout>
-      <main>
-      Index Page
-      </main>
-    </Layout>
+    <Fragment>
+      <Head title="Index" />
+      <Layout>
+        <main>
+          Index Page
+        </main>
+      </Layout>
+    </Fragment>
 
   )
 }

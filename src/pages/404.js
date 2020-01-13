@@ -1,20 +1,19 @@
 import React, { Fragment } from 'react'
+import { Link } from 'gatsby'
 
 import Head from '../components/helmetHead'
 import Layout from '../components/layout'
 
-const SecondPage = () => {
+const NotFound = () => {
   return (
     <Fragment>
-      <Head title="Second Page" />
+      <Head title="404 Page" />
       <Layout>
-        <main>
-        Hello, 2nd page!
-        </main>
+        <h1>Page not found</h1>
+        <p><Link to="/">Back home</Link></p>
       </Layout>
     </Fragment>
   )
 }
 
-
-export default SecondPage
+export default NotFound
