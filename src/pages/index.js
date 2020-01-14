@@ -12,7 +12,9 @@ const IndexPage = () => {
       <Layout>
         <main className={indexStyles.main}>
           <section className={indexStyles.sectionOne}>
-            <h2 className={indexStyles.headerSecondary}>Index Page, Section One</h2>
+            <div className={indexStyles.u_center}>
+              <h2 className={indexStyles.headerSecondary}>Index Page - Section One</h2>
+            </div>
           </section>
         </main>
       </Layout>

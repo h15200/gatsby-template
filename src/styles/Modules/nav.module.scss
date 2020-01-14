@@ -11,12 +11,11 @@
 
     li {
       font-size: 1.1rem;
+      font-weight: 400;
 
       &:not(:last-child) {
         margin-right: 1rem;
       }
-   
-
       
       a:link, a:visited {
         color: $color-black;

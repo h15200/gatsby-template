@@ -15,8 +15,15 @@ html {
 body {
   background-color: $color-grey-dark-1;
   // font-family: 
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.6;
+  max-width: 1200px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.headerSecondary {
+  color: grey;
 }
 
 // body - font family, font weight (usually 700) , h2, h3, p 
