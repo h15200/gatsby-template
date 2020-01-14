@@ -1,2 +1,13 @@
 @import '../main.scss';
 // for header
+
+.headerSection {
+  background-color: $color-white;
+  padding: 3rem;
+  text-align: center;
+}
+
+.headerPrimary {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}

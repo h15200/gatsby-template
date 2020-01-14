@@ -2,10 +2,12 @@ import React from 'react'
 
 import Nav from './nav'
 
+import headerStyles from '../styles/Modules/header.module.scss'
+
 const Header = () => {
   return (
-    <header>
-      <h1>header is Here</h1>
+    <header className={headerStyles.headerSection}>
+      <h1 className={headerStyles.headerPrimary}>H1 Header</h1>
       <Nav />
     </header>
   )

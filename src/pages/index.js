@@ -10,8 +10,10 @@ const IndexPage = () => {
     <Fragment>
       <Head title="Index" />
       <Layout>
-        <main>
-          Index Page
+        <main className={indexStyles.main}>
+          <section className={indexStyles.sectionOne}>
+            <h2 className={indexStyles.headerSecondary}>Index Page, Section One</h2>
+          </section>
         </main>
       </Layout>
     </Fragment>

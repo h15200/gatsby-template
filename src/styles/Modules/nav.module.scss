@@ -1,0 +1,50 @@
+@import '../main.scss';
+
+.nav {
+
+
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+    li {
+      font-size: 1.1rem;
+
+      &:not(:last-child) {
+        margin-right: 1rem;
+      }
+   
+
+      
+      a:link, a:visited {
+        color: $color-black;
+        text-decoration: none;
+        padding: .5rem;
+        border: 2px transparent solid;
+        outline: none;
+      }
+
+      a:hover, a:focus {
+        border: 2px black solid;
+      }
+
+      a:active {
+        // darken whatever is set on header.module background
+        background-color: darken($color-white, 10%);
+      }
+
+      .activeLink {
+        font-weight: 700;
+
+        &:hover {
+          border: 2px transparent solid;
+        }
+      }
+    }
+    
+
+
+  }
+}
