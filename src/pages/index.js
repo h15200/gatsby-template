@@ -1,3 +1,27 @@
-import React from "react"
+import React, { Fragment } from 'react'
 
-export default () => <div>Hello world!</div>
+import Head from '../components/helmetHead'
+import Layout from '../components/layout'
+// this connects main.scss to the gatsby app
+import indexStyles from '../styles/Modules/index.module.scss'
+
+const IndexPage = () => {
+  return (
+    <Fragment>
+      <Head title="Index" />
+      <Layout>
+        <main className={indexStyles.main}>
+          <section className={indexStyles.sectionOne}>
+            <div className={indexStyles.u_center}>
+              <h2 className={indexStyles.headerSecondary}>Index Page - Section One</h2>
+            </div>
+          </section>
+        </main>
+      </Layout>
+    </Fragment>
+
+  )
+}
+
+
+export default IndexPage
