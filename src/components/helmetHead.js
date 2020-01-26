@@ -20,6 +20,8 @@ const Head = props => {
     <Helmet>
       <title>{`${props.title} | ${data.site.siteMetadata.title}`}</title>
       <link rel="shortcut icon" href={favicon} type="image/x-icon" />
+      <meta name="author" content="Hideaki Aomori" />
+      <meta name="description" content="###" />
     </Helmet>
   )
 }
