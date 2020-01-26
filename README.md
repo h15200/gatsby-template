@@ -1,3 +1,5 @@
+run npm install
+
 Uncomment .gitignore bottom items
 
           gatsby-config
@@ -20,6 +22,16 @@ edit meta description
 add variables in src - styles - abstract - _variables
   colors
   shadows
+
+          Initialize git
+Add new repo in github
+git init
+git checkout -b dev
+git add . 
+git commit -m 'init'
+git remote add origin 'url from github'
+git push -u origin master
+
 
 
 
