@@ -1,3 +1,5 @@
+run npm install
+
 Uncomment .gitignore bottom items
 
           gatsby-config
