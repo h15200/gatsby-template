@@ -1,13 +1,30 @@
 Uncomment .gitignore bottom items
+
+          gatsby-config
+write site metadata
+  title
+
           Pages
-Rename files in src - pages folder, rename "title" in each page helmetHead
+Rename, add files in src - pages
+   rename title attribute inside <head> in each page
 Rename routes in src - pages - components - nav <Link to="/newPageName" 
           
-Write in site metadata in gatsby-config
+          static
+replace favicon.ico 
 
-Put an ico file into static folder named "favicon" and replace current dummy one
+          helmetHead.js
+import fonts
+edit meta description
 
-Put primary colors in src - styles - abstract - _variables
+          css
+add variables in src - styles - abstract - _variables
+  colors
+  shadows
 
-Put fonts in head
 
+
+get font awesome , svg plugins if necessary
+
+end of project 
+
+save components to reuse
