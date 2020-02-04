@@ -28,11 +28,13 @@ add variables in src - styles - abstract - _variables
           Initialize git
 Add new repo in github
 git init
-git checkout -b dev
 git add . 
 git commit -m 'init'
 git remote add origin 'url from github'
 git push -u origin master
+
+Also: git checkout -b dev
+and stay on this branch 
 
 
 
