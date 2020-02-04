@@ -1,3 +1,5 @@
+rename project folder
+
 run npm install
 
 Uncomment .gitignore bottom items
