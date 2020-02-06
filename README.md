@@ -7,6 +7,10 @@ Uncomment .gitignore bottom items
           gatsby-config
 write site metadata
   title
+  siteUrl
+  description
+
+  plugin - font
 
           Pages
 Rename, add files in src - pages
@@ -17,7 +21,6 @@ Rename routes in src - pages - components - nav <Link to="/newPageName"
 replace favicon.ico 
 
           helmetHead.js
-import fonts
 edit meta description
 
           css
