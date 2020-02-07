@@ -17,8 +17,8 @@ Rename, add files in src - pages
    rename title attribute inside <head> in each page
 Rename routes in src - pages - components - nav <Link to="/newPageName" 
           
-          static
-replace favicon.ico 
+          Favicon
+drop a file called favicon.png that is 1500x1500px directly in the src folder, uncomment gatsby-config plugin already installed
 
           helmetHead.js
 edit meta description
