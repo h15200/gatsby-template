@@ -15,6 +15,7 @@ module.exports = {
       }
     },
     'gatsby-transformer-sharp',
+    // 'gatsby-plugin-favicon',
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-html-attributes',
@@ -22,20 +23,20 @@ module.exports = {
         lang: 'en'
       }
     },
-    {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
-      options: {
-        fonts: [
-          {
-            // family: `Oswald`,
-            // subsets: [`latin`],
-          },
-          {
-            // family: `Open Sans`,
-            // variants: [`400`, `700`]
-          },
-        ],
-      }
-    }
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         // family: `Oswald`,
+    //         // subsets: [`latin`],
+    //       },
+    //       {
+    //         // family: `Open Sans`,
+    //         // variants: [`400`, `700`]
+    //       },
+    //     ],
+    //   }
+    // }
   ]
 }
